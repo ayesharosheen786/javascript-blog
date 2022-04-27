@@ -1,0 +1,93 @@
+*{
+    margin:2px;
+    padding:4px;
+    box-sizing: border-box;
+}
+body{
+    font-family: monospace;
+    color: black;
+    background-color: rgb(47, 154, 168);
+}
+.container{
+    max-width: 1200px;
+    margin:0;
+}
+.nav{
+    position: fixed;
+    background-color: skyblue;
+    transition: all 0.5s ease-in-out;
+    top:0;
+    left:0;
+    right:0;
+    
+}
+.nav .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    transition: all 0.5s ease-in-out;
+}
+.nav ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav a{
+    color: azure;
+    text-decoration: none;
+    padding:10px;
+    font-family: cursive;
+    font-size: 30px;
+}
+.nav.active{
+    background-color: purple;
+}
+.nav.active a{
+    color:plum;
+}
+.nav.active .container{
+    padding: 15px;
+}
+.nav a:hover{
+    color:navy;
+    font-weight: 300;
+}
+h1{
+    font-family: cursive;
+    font-size: 45px;
+}
+.sample{
+    background-image: url("https://images.unsplash.com/photo-1568952433726-3896e3881c65?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHRlY2hub2xvZ3l8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    color:beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.sample h2{
+    font-size: 50px;
+    font-family: cursive;
+    color: azure;
+}
+.sample p{
+    font-size: 35px;
+    font-family: cursive;
+    color: aliceblues;
+}
+.content h2{
+    font-size: 35px;
+    font-family: cursive;
+    margin:15px;
+    color: beige;
+}
+.content p{
+    font-size: 25px;
+    margin: 10px;
+    letter-spacing: 3px;
+}
